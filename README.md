@@ -117,6 +117,20 @@ def verify_chain(chain):
 
 ---
 
+## 🚫 Design Constraint: Pure Structural Verification
+
+To demonstrate that geometric consistency is orthogonal to probabilistic generation, **this system explicitly REJECTS probabilistic metadata.**
+
+We assert that **Eidoku** does NOT use:
+- ❌ **Token Probabilities / Log-Likelihoods:** The gate is blind to the generator's confidence.
+- ❌ **Attention Weights:** No inspection of the model's internal activations.
+- ❌ **Cosine Similarity as Semantic Distance:** We use locally induced metrics (covariance), not global embedding distance.
+- ❌ **RLHF / Preference Models:** No human feedback reward models are involved.
+
+If a "smooth falsehood" (hallucination) has a probability of `0.99`, Eidoku must still reject it based on high structural tension `τ`.
+
+---
+
 ## ⚠️ What This Is NOT
 
 - Not a Truth Oracle
