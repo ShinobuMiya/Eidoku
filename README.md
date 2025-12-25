@@ -4,6 +4,16 @@ Eidoku is a lightweight, post-hoc verification gate for LLM reasoning.
 It detects structurally inconsistent reasoning steps that remain fluent and high-probability.
 This repository provides a reproducible reference implementation corresponding to the accompanying paper.
 
+**Paper:**  
+Eidoku: A Neuro-Symbolic Verification Gate for LLM Reasoning via Structural Constraint Satisfaction  
+- arXiv: https://arxiv.org/abs/2512.20664  
+- DOI: https://doi.org/10.48550/arXiv.2512.20664  
+
+**Theoretical Background:**  
+This work is grounded in the Critical Projection Model (CPM).  
+- Zenodo: https://zenodo.org/records/17940349  
+- DOI: https://doi.org/10.5281/zenodo.17940349
+
 ---
 
 ## Overview
