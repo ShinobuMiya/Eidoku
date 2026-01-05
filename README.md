@@ -110,6 +110,19 @@ All theoretical discussions beyond verification (e.g., broader semantic framewor
 
 - Sensitivity analyses are included to demonstrate robustness.
 
+## Relation to CPM
+
+Eidoku is a verification-oriented implementation inspired by the theoretical framework **CPM (Critical Projection and the Geometry of Meaning)**.
+
+CPM formulates reliability and consciousness-related phenomena in terms of structural constraints, closure, and critical transitions, independent of probabilistic likelihood.  
+Eidoku adopts this perspective in a practical setting by modeling post-hoc reasoning verification as a **constraint satisfaction problem**, explicitly separating generation from judgment.
+
+**CPM (theoretical framework):**  
+https://shinobumiya.github.io/cpm-site/
+
+**CPM preprint (Zenodo DOI):**  
+https://doi.org/10.5281/zenodo.17940349
+
 ## License
 
 Apache 2.0 License.
