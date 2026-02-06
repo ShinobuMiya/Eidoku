@@ -121,7 +121,7 @@ Eidoku adopts this perspective in a practical setting by modeling post-hoc reaso
 https://shinobumiya.github.io/cpm-site/
 
 **CPM preprint (Zenodo DOI):**  
-https://doi.org/10.5281/zenodo.17940349
+https://doi.org/10.5281/zenodo.18377851
 
 ## License
 
