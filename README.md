@@ -11,8 +11,8 @@ Eidoku: A Neuro-Symbolic Verification Gate for LLM Reasoning via Structural Cons
 
 **Theoretical Background:**  
 This work is grounded in the Critical Projection Model (CPM).  
-- Zenodo: https://zenodo.org/records/17940349  
-- DOI: https://doi.org/10.5281/zenodo.17940349
+- Zenodo: https://zenodo.org/records/18377851  
+- DOI: https://doi.org/10.5281/zenodo.18377851
 
 ---
 
